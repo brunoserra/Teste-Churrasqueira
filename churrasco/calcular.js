@@ -7,7 +7,7 @@ let res = document.getElementById('#resultado').value;
 
 
 
-function caclular() {
+function calcular() {
     //soma das pessoas
 
     let totalPessoas = Number(homem) + Number(mulher) + Number(crianca),
