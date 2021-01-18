@@ -26,9 +26,13 @@ function calculo() {
         totalCarne = (qtdH * 0.63) + (qtdM * 0.48) + (qtdC * 0.350)
             // Acompanhementos
         if (acpto.checked) {
-            totalac = (qtdH * 0.450) + (qtM * 0.350) + (qtdC * 0.250)
-
+            totalAc = (qtdH * 0.450) + (qtM * 0.350) + (qtdC * 0.250)
+            totalAc = `${totalAc}g`
+        } else {
+            totalAC = `Não teremos acompanamento`
         }
+        //Calculo da Cerveja
+
     }
 
 }
