@@ -13,7 +13,11 @@ function calculo() {
     if (homem.value.length == 0 || mulher.value.length == 0 || crianca.value.length == 0 || cerveja.value.length == 0 || refrigerante.value.length == 0) {
         alert(`Por favor Preencha todos os campos!`)
     } else {
-
-
+        //converter inputs
+        let qdtH = Number(homem.value)
+        let qtdM = Number(mulher.value)
+        let qtdC = Number(crianca.value)
+        let qtdBeer = Number(cerveja.value)
+        let qtdRefri = Number(refrigerante.value)
     }
 }
