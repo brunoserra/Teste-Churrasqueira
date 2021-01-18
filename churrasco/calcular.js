@@ -7,8 +7,13 @@ function calculo() {
     let cerveja = document.getElementById(`cervejas`)
     let refrigerante = document.getElementById(`refrigerantes`)
     let acpto = document.getElementById(`acompanhamento`)
+    let result = document.getElementById(`resultado`)
+
+    //fazendo os calculos
+    if (homem.value.length == 0 || mulher.value.length == 0 || crianca.value.length == 0 || cerveja.value.length == 0 || refrigerante.value.length == 0) {
+        alert(`Por favor Preencha todos os campos!`)
+    } else {
 
 
-
-
+    }
 }
