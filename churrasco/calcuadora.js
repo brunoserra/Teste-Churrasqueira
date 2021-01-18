@@ -36,7 +36,7 @@ function calcular() {
             //Caculo refrigerante u/m l
         refri = qtdRefri * (0.600)
             //mostrar resultado
-        res.innerHTML += `<p>Total de pessoas: ${totalPessoas}</p>`
+        res.innerHTML = `<p>Total de pessoas: ${totalPessoas}</p>`
         res.innerHTML += `<p>Total de Carne: ${totalCarne}g</p>`
         res.innerHTML += `<p>Acompanhamentos: ${totalAC}</p>`
         res.innerHTML += `<p>Bebidas alcóolicas: ${beerL}L</p>`
