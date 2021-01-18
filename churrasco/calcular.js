@@ -1,4 +1,4 @@
-function calculo() {
+function calcular() {
 
     //coletando inputs
     let homem = document.getElementById(`qtdHomem`)
@@ -31,8 +31,16 @@ function calculo() {
         } else {
             totalAC = `Não teremos acompanamento`
         }
-        //Calculo da Cerveja
-
+        //Calculo da Cerveja unidade de medida l
+        beerL = qtdBeer * (1.3)
+            //Caculo refrigerante u/m l
+        refri = qtdRefri * (0.600)
+            //mostrar resultado
+        res.innerHTML += `<p>Total de pessoas: ${totalPessoas}</p>`
+        res.innerHTML += `<p>Total de Carne: ${totalCarne}g</p>`
+        res.innerHTML += `<p>Acompanhamentos: ${totalAC}</p>`
+        res.innerHTML += `<p>Bebidas alcóolicas: ${beerL}L</p>`
+        res.innerHTML += `<p>Bebidas não alcóolicas: ${refri}L</p>`
     }
 
 }
