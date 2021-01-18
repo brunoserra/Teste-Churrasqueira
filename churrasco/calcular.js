@@ -1,16 +1,14 @@
-//coletando inputs
-let homem = document.getElementById('#qtdHomem').value;
-let mulher = document.getElementById('#qtdMulher').value;
-let crianca = document.getElementById('#qtdCrianca').value;
-let res = document.getElementById('#resultado').value;
+function calculo() {
+
+    //coletando inputs
+    let homem = document.getElementById(`qtdHomem`)
+    let mulher = document.getElementById(`qtdMulher`)
+    let crianca = document.getElementById(`qtdCrianca`)
+    let cerveja = document.getElementById(`cervejas`)
+    let refrigerante = document.getElementById(`refrigerantes`)
+    let acpto = document.getElementById(`acompanhamento`)
 
 
 
-
-function calcular() {
-    //soma das pessoas
-
-    let totalPessoas = Number(homem) + Number(mulher) + Number(crianca),
 
 }
-document.getElementById("total-pessoas").innerHTML = `${totalPessoas} pessoas`
